@@ -1,0 +1,98 @@
+---
+title: "{arcgislayers} testing"
+format: 
+  revealjs:
+    incremental: true
+---
+
+
+# Thank you for coming! 
+
+# 
+
+:::{.r-fit-text}
+Our first R-ArcGIS community event
+:::
+
+#
+:::{.r-fit-text}
+2 hour testing & code sprint
+:::
+
+## What is `{arcgislayers}`?
+
+- New R package for interfacing with the ArcGIS REST API
+- Part of the R-ArcGIS Bridge, distinct from `{arcgisbinding}`
+- Open source
+
+## Testing objectives
+
+- Errors, Warnings, Messages
+- Documentation
+- Additional feedback
+
+## Errors, Warnings, Messages
+
+- Unexpected errors
+- Confusing error messages
+- Something should be an error but isn't
+- Should be a warning but isn't
+- No message where expected?
+
+## Documentation
+
+- [pkgdown site](https://r.esri.com/arcgislayers/):
+  - [function reference](https://r.esri.com/arcgislayers/reference/index.html):
+    - do the argument definitions make sense?
+    - are the details specific/clear enough?
+    - do the examples work and make sense?
+- [Guides](https://r.esri.com/r-bridge-site/location-services/overview.html):
+  - clarity, typos, missing detail?
+
+
+## Giving Feedback
+
+- OneNote: [R-ArcGIS Bridge Info](onenote:https://esriis-my.sharepoint.com/personal/jaso2991_esri_com/Documents/R-ArcGIS%20Bridge/February%202024/Thursday_02_01_2024.one#R-ArcGIS%20Bridge%20Info&section-id=%7B3115B601-1A38-4E13-B4D7-C75C8ED5331A%7D&page-id=%7BE3CAC912-1500-4BB4-B542-B6CD5EDC1944%7D&end) ([Web view](https://esriis-my.sharepoint.com/personal/jaso2991_esri_com/_layouts/OneNote.aspx?id=%2Fpersonal%2Fjaso2991_esri_com%2FDocuments%2FR-ArcGIS%20Bridge&wd=target%28February%202024%2FThursday_02_01_2024.one%7C3115B601-1A38-4E13-B4D7-C75C8ED5331A%2FR-ArcGIS%20Bridge%20Info%7CE3CAC912-1500-4BB4-B542-B6CD5EDC1944%2F%29))
+- On GitHub
+  - Packages: [`arcgislayers`](https://github.com/R-ArcGIS/arcgislayers) & [`arcgisutils`](https://github.com/R-ArcGIS/arcgisutils)
+  - Documentation:
+    - Guides: **Report an issue** button on right sidebar
+
+      ![](edit-doc.png){width=350}
+    - pkgdown
+
+## Installation
+
+- Ensure remotes is installed
+  ```r
+  install.packages("remotes")
+  ```
+- Install the development version of `arcgislayers` and its dependency `arcgisutils`
+  ```r
+  remotes::install_github("r-arcgis/arcgislayers")
+  ```
+
+
+## Functionality
+
+- Publishing
+- Editing
+- Deleting
+- Private content 
+
+
+## ArcGIS Online
+
+- Use your own ArcGIS Online Account
+
+  OR
+
+- Use a testing account: [ArcGIS Online Accounts](onenote:https://esriis-my.sharepoint.com/personal/jaso2991_esri_com/Documents/R-ArcGIS%20Bridge/February%202024/Thursday_02_01_2024.one#ArcGIS%20Online%20Accounts&section-id=%7B3115B601-1A38-4E13-B4D7-C75C8ED5331A%7D&page-id=%7B8EA15B0C-CEDD-444F-9DD6-B5BE350F4487%7D&end) ([Web view](https://esriis-my.sharepoint.com/personal/jaso2991_esri_com/_layouts/OneNote.aspx?id=%2Fpersonal%2Fjaso2991_esri_com%2FDocuments%2FR-ArcGIS%20Bridge&wd=target%28February%202024%2FThursday_02_01_2024.one%7C3115B601-1A38-4E13-B4D7-C75C8ED5331A%2FArcGIS%20Online%20Accounts%7C8EA15B0C-CEDD-444F-9DD6-B5BE350F4487%2F%29))
+
+
+## Questions?
+
+- Ask in the Teams chat
+- After the event, reach out to the team by email: **R_bridge@esri.com**
+
+## Thanks for your time & feedback!
