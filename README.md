@@ -1,6 +1,5 @@
 # {arcgislayers} testing
 
-
 # Thank you for coming!
 
 # 
@@ -19,11 +18,22 @@ Our first R-ArcGIS community event
 
 </div>
 
+## Agenda:
+
+- 90 mins testing
+- 30 remainder questions / discussion
+
 ## What is `{arcgislayers}`?
 
 - New R package for interfacing with the ArcGIS REST API
 - Part of the R-ArcGIS Bridge, distinct from `{arcgisbinding}`
 - Open source
+
+## Today’s goal
+
+- See how to improve new user experience
+- Identify critical bugs
+- Know where to improve docs
 
 ## Testing objectives
 
@@ -94,14 +104,26 @@ Our first R-ArcGIS community event
 
   OR
 
-- Use a testing account: [ArcGIS Online
-  Accounts](onenote:https://esriis-my.sharepoint.com/personal/jaso2991_esri_com/Documents/R-ArcGIS%20Bridge/February%202024/Thursday_02_01_2024.one#ArcGIS%20Online%20Accounts&section-id=%7B3115B601-1A38-4E13-B4D7-C75C8ED5331A%7D&page-id=%7B8EA15B0C-CEDD-444F-9DD6-B5BE350F4487%7D&end)
-  ([Web
-  view](https://esriis-my.sharepoint.com/personal/jaso2991_esri_com/_layouts/OneNote.aspx?id=%2Fpersonal%2Fjaso2991_esri_com%2FDocuments%2FR-ArcGIS%20Bridge&wd=target%28February%202024%2FThursday_02_01_2024.one%7C3115B601-1A38-4E13-B4D7-C75C8ED5331A%2FArcGIS%20Online%20Accounts%7C8EA15B0C-CEDD-444F-9DD6-B5BE350F4487%2F%29))
+- Use a provided testing account
+
+[ArcGIS Online
+Accounts](onenote:https://esriis-my.sharepoint.com/personal/jaso2991_esri_com/Documents/R-ArcGIS%20Bridge/February%202024/Thursday_02_01_2024.one#ArcGIS%20Online%20Accounts&section-id=%7B3115B601-1A38-4E13-B4D7-C75C8ED5331A%7D&page-id=%7B8EA15B0C-CEDD-444F-9DD6-B5BE350F4487%7D&end)
+([Web
+view](https://esriis-my.sharepoint.com/personal/jaso2991_esri_com/_layouts/OneNote.aspx?id=%2Fpersonal%2Fjaso2991_esri_com%2FDocuments%2FR-ArcGIS%20Bridge&wd=target%28February%202024%2FThursday_02_01_2024.one%7C3115B601-1A38-4E13-B4D7-C75C8ED5331A%2FArcGIS%20Online%20Accounts%7C8EA15B0C-CEDD-444F-9DD6-B5BE350F4487%2F%29))
+
+## Public Portals:
+
+- [Living Atlas](https://livingatlas.arcgis.com/)
+- [ArcGIS Hubs](https://hub.arcgis.com/)
+- [Data.gov](https://catalog.data.gov/dataset/?metadata_type=geospatial)
+- [Ca.gov](https://data.ca.gov/group/water?res_format=ArcGIS+GeoServices+REST+API)
+- [DHS](https://hifld-geoplatform.opendata.arcgis.com/)
+- and a lot more….
 
 ## Questions?
 
 - Ask in the Teams chat
 - After the event, reach out to the team by email: **R_bridge@esri.com**
+- Or make a discussion post on GitHub
 
 ## Thanks for your time & feedback!
